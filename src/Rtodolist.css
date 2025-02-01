@@ -1,14 +1,15 @@
 .it {
     display: flex;
     flex-direction: row;
-    border: 1px solid grey;
+    border: 1px solid rgb(228, 19, 165);
     padding: 12px;
     border-radius: 9px;
     justify-content: space-between;
     align-items: center;
-    
+
 }
-.btn-group{
+
+.btn-group {
     display: flex;
     gap: 25px;
     align-items: center;
@@ -18,34 +19,35 @@
     padding: 7px 10px;
     border-radius: 30px;
     outline: none;
-    border: 1px solid grey;
+    border: 1px solid rgb(196, 28, 145);
     width: 100%;
+    background-color: rgb(239, 236, 240);
+
 }
 
-.input-container{
-    
+.input-container {
     display: flex;
     justify-content: space-between;
-gap: 10px;
+    gap: 10px;
     padding: 20px 0;
 }
 
 .btn {
     padding: 20px;
     border-radius: 50%;
-    border: none;
+    border: 1px solid rgb(196, 28, 145);
     outline: none;
-    background-color: green;
+    background-color: rgb(239, 236, 240);
 }
 
 .heading {
     text-align: center;
     font-size: 40px;
-    
+
 }
 
 .todo {
-    background-color: white;
+    background-color: rgb(230, 190, 248);
     padding: 40px 40px;
     border-radius: 15px;
     height: 530px;
@@ -57,18 +59,15 @@ gap: 10px;
     flex-direction: column;
     gap: 20px;
 }
-.dddd{
-    text-decoration:line-through;
+
+.dddd {
+    text-decoration: line-through;
 }
 
 .upd {
     border: none;
     outline: none;
     background-color: white;
+    border-radius: 20px;
     padding: 5px;
-    
 }
-
-
-
-
