@@ -42,7 +42,7 @@ const Rtodolist = () => {
     }
     return (
         <div className='todo'>
-            <h3 className='heading'>Todo List</h3>
+            <h3 className='heading'>ToDo List</h3>
             <div className='input-container'>
                 <input type="text" placeholder='Add your task' onChange={(e) => setInputText(e.target.value)} value={inputtext} className='input' />
                 <button onClick={ooo} className='btn'>+</button>

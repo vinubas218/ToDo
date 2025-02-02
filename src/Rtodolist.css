@@ -1,9 +1,9 @@
 .it {
     display: flex;
     flex-direction: row;
-    border: 1px solid rgb(228, 19, 165);
+    border: 1px solid rgb(173, 175, 177);
     padding: 12px;
-    border-radius: 9px;
+    border-radius:20px;
     justify-content: space-between;
     align-items: center;
 
@@ -19,7 +19,7 @@
     padding: 7px 10px;
     border-radius: 30px;
     outline: none;
-    border: 1px solid rgb(196, 28, 145);
+    border: 1px solid rgb(224, 200, 217);
     width: 100%;
     background-color: rgb(239, 236, 240);
 
@@ -35,7 +35,7 @@
 .btn {
     padding: 20px;
     border-radius: 50%;
-    border: 1px solid rgb(196, 28, 145);
+    border: 1px solid rgb(224, 200, 217);
     outline: none;
     background-color: rgb(239, 236, 240);
 }
@@ -47,10 +47,10 @@
 }
 
 .todo {
-    background-color: rgb(230, 190, 248);
+    background-color: rgba(203, 235, 240, 0.836);
     padding: 40px 40px;
-    border-radius: 15px;
-    height: 530px;
+    border-radius: 70px;
+    height: 550px;
     width: 500px;
 }
 
